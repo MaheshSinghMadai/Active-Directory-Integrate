@@ -13,7 +13,7 @@ class Program
         Console.WriteLine("Enter your password:");
         string password = ReadPassword();
 
-        string ldapPath = "LDAP://AD.nav.com"; // Replace with your LDAP path
+        string ldapPath = "LDAP://BIDEMO.test.local"; // Replace with your LDAP path
 
         try
         {
